@@ -36,7 +36,7 @@ jobs:
 
     # 3. Docker 이미지 빌드
     - name: docker image build
-      run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/github-actions-demo:v1 .
+      run: docker build -t leeinhong9512/github-actions-demo:v1 .
 
 
     # 4. DockerHub 로그인
