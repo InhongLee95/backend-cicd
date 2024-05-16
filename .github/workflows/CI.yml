@@ -39,7 +39,6 @@ jobs:
       run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/github-actions-demo:v1 .
 
 
-
     # 4. DockerHub 로그인
     - name: docker login
       uses: docker/login-action@v2
